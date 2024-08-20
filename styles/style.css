@@ -10,3 +10,55 @@
 
     --fonte-principal: "Inter", sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    padding: 0 1rem;
+    height: 100vh;
+}
+
+.principal {
+    /* background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.principal .principal__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+}
+
+.principal .principal__botao {
+    text-decoration: none;
+    border-radius: .5rem;
+    background-color: var(--cor-do-botao);
+    color: var(--branco);
+    padding: 1rem;
+    width: 80%;
+}
+
+#principal__botao-secundario {
+    background-color: var(--cor-de-fundo);
+    border: 1px solid var(--branco);
+}
+
+.principal .principal__aviso {
+    font-size: .75rem;
+    color: var(--cor-do-aviso);
+}
