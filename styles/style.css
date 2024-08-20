@@ -22,6 +22,7 @@ body {
 
 .container {
     padding: 0 1rem;
+    margin: 1rem 0;
     height: 100vh;
 }
 
@@ -61,4 +62,40 @@ body {
 .principal .principal__aviso {
     font-size: .75rem;
     color: var(--cor-do-aviso);
+}
+
+/* PLATAFORMA */
+
+.plataforma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plataforma .plataforma__textos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.plataforma .plataforma__textos .plataforma__textos-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.plataforma .plataforma__textos .plataforma__textos-descricao {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-do-texto);
+}
+
+.plataforma .plataforma__textos .plataformas__textos-botao {
+    border-radius: .5rem;
+    background-color: var(--cor-do-botao);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
 }
